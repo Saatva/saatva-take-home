@@ -1,5 +1,5 @@
 {
-  "name": "saatva-storefront-hiring",
+  "name": "saatva-take-home",
   "private": true,
   "version": "0.1.0",
   "description": "Saatva storefront take-home and pairing exercise",
@@ -15,9 +15,9 @@
     "dev:web": "npm run dev -w apps/web"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "concurrently": "10.0.6"
   },
   "engines": {
-    "node": ">=22.12"
+    "node": ">=26"
   }
 }

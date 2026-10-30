@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "source": "catalog",
+    "generatedAt": "2026-10-01T14:02:11Z",
+    "currency": "USD"
+  },
+  "data": [
+    {
+      "sku": "SAT-CLASSIC-Q",
+      "productHandle": "saatva-classic",
+      "displayName": "Saatva Classic",
+      "priceCents": "99900",
+      "salePriceCents": null,
+      "imageKey": "classic-carousel",
+      "status": "active"
+    },
+    {
+      "sku": "LNL-Q",
+      "productHandle": "loom-and-leaf",
+      "displayName": "Loom & Leaf",
+      "priceCents": "129900",
+      "salePriceCents": "119900",
+      "imageKey": "loom-carousel",
+      "status": "active"
+    },
+    {
+      "sku": "ZEN-Q",
+      "productHandle": "zenhaven",
+      "displayName": "Zenhaven",
+      "priceCents": "159900",
+      "salePriceCents": null,
+      "imageKey": "zen-carousel",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@hiring/upstream",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Mock third-party services (catalog + content).",
+  "scripts": {
+    "dev": "node --watch server.mjs",
+    "start": "node server.mjs"
+  }
+}

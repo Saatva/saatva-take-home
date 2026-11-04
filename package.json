@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "description": "Saatva storefront take-home and pairing exercise",
   "workspaces": [
+    "packages/contracts",
     "services/upstream",
     "apps/api",
     "apps/web"
@@ -12,7 +13,8 @@
     "dev": "concurrently -k -n upstream,api,web -c gray,blue,magenta \"npm run dev -w services/upstream\" \"npm run dev -w apps/api\" \"npm run dev -w apps/web\"",
     "dev:upstream": "npm run dev -w services/upstream",
     "dev:api": "npm run dev -w apps/api",
-    "dev:web": "npm run dev -w apps/web"
+    "dev:web": "npm run dev -w apps/web",
+    "test": "npm run test -w apps/api && npm run test -w apps/web"
   },
   "devDependencies": {
     "concurrently": "^9.1.2"

@@ -1,0 +1,7 @@
+{
+  "name": "@saatva/contracts",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Shared response types between the storefront BFF and web app. Types only, no runtime code.",
+  "types": "index.d.ts"
+}

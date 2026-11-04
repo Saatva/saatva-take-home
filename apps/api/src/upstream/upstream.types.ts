@@ -1,13 +1,16 @@
 // Response shapes as documented by each third-party provider.
+// Untrusted: parse with upstream.schemas.ts before use.
+
+export type { ParsedCatalog, ParsedCatalogProduct, ParsedContent } from './upstream.schemas'
 
 export interface CatalogProduct {
   sku: string
   productHandle: string
   displayName: string
   /** Price in cents. */
-  priceCents: string
+  priceCents: string | number
   /** Sale price in cents, when a promotion is active. */
-  salePriceCents: string | null
+  salePriceCents: string | number | null
   imageKey: string
   status: 'active' | 'discontinued'
 }
@@ -28,8 +31,8 @@ export interface ContentProduct {
   /** Trusted HTML authored in the CMS. */
   descriptionHtml: string
   reviews: {
-    average: number
-    count: number
+    average: number | string
+    count: number | string
   }
   badges: string[]
 }

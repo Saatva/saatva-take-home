@@ -38,7 +38,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       subtotal: cartSubtotal(state),
       ...actions,
     }),
-    [state, actions],
+    [state.lines.length, actions],
   )
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>

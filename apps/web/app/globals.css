@@ -367,6 +367,17 @@ img {
   color: var(--color-muted);
 }
 
+.monthly-payment {
+  margin: 0.25rem 0 0;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+
+.monthly-payment strong {
+  color: var(--color-text);
+  font-weight: 500;
+}
+
 .star-rating {
   display: flex;
   align-items: center;

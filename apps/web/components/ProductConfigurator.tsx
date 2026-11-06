@@ -5,6 +5,7 @@ import Image from 'next/image'
 import type { Product } from '@saatva/contracts'
 import { useCart } from '@/components/CartProvider'
 import { MattressToggle } from '@/components/MattressToggle'
+import { MonthlyPayment } from '@/components/MonthlyPayment'
 import { StarRating } from '@/components/StarRating'
 import { formatPrice } from '@/lib/format'
 
@@ -82,6 +83,7 @@ export function ProductConfigurator({ products, currency, degraded, initialSelec
               </p>
             )}
           </div>
+          {price && <MonthlyPayment price={price.saleAmount ?? price.amount} />}
 
           {product.rating && (
             <StarRating average={product.rating.average} count={product.rating.count} />

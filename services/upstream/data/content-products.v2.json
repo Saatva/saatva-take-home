@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "version": "2",
+    "generatedAt": "2026-11-01T09:00:00Z"
+  },
+  "data": [
+    {
+      "slug": "zenhaven",
+      "title": "Flippable natural latex, two firmness levels in one",
+      "bodyHtml": "<p>Our <strong>100% natural Talalay latex</strong> mattress with a gentle firm side and a luxury plush side.</p>",
+      "rating": { "value": 9.0, "count": 2140 },
+      "tags": ["Natural latex"],
+      "updatedAt": "2026-10-28T16:20:00Z"
+    },
+    {
+      "slug": "saatva-youth",
+      "title": "Designed for growing kids",
+      "bodyHtml": "<p>Flippable design for ages 3-7 and 8-12.</p>",
+      "rating": { "value": 9.6, "count": 412 },
+      "tags": [],
+      "updatedAt": "2026-10-28T16:20:00Z"
+    },
+    {
+      "slug": "saatva-classic",
+      "title": "Our flagship luxury innerspring",
+      "bodyHtml": "<p>Hotel-quality <strong>dual coil-on-coil</strong> construction with a Euro pillow top.</p><ul><li>Plush Soft</li><li>Luxury Firm</li><li>Firm</li></ul>",
+      "rating": { "value": 9.8, "count": 5231 },
+      "tags": ["Best seller"],
+      "updatedAt": "2026-10-28T16:20:00Z"
+    },
+    {
+      "slug": "loom-and-leaf",
+      "title": "Ultra-premium memory foam",
+      "bodyHtml": "<p>Contouring <strong>memory foam</strong> with a cooling gel layer for pressure relief.</p>",
+      "rating": { "value": 8.0, "count": 1876 },
+      "tags": ["Pressure relief"],
+      "updatedAt": "2026-10-28T16:20:00Z"
+    }
+  ]
+}

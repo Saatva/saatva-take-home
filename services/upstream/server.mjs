@@ -23,6 +23,7 @@ const load = async (file) =>
 const routes = {
   '/catalog/v1/products': { service: 'catalog', file: 'catalog-products.json' },
   '/content/v1/products': { service: 'content', file: 'content-products.json' },
+  '/content/v2/products': { service: 'content', file: 'content-products.v2.json' },
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
